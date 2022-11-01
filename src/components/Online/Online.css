@@ -1,0 +1,52 @@
+.online-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.online-image{
+    height: 648px;
+    width: 643px;
+}
+
+.online-text{
+    margin-left: 8%;
+}
+
+.online-header{
+    margin-top: -30px;
+    font-size: 38px;
+    font-family: 'Abel', sans-serif;
+}
+
+.online-ul li {
+    line-height: 30px;
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+}
+
+.online-button{
+    display: flex;
+    margin-left: 5%;
+}
+
+.applestore{
+    margin-left: 20px;
+    height: 57px;
+    width: 250px;
+    border: none;
+    border-radius: 12px;
+    background-color:#2a2c37 ;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+
+.playstore{
+    height: 57px;
+    width: 250px;
+    border: none;
+    border-radius: 12px;
+    background-color:#2a2c37 ;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}

@@ -1,0 +1,54 @@
+
+
+.about-container{
+    height: 600px;
+    width: 1400px;
+    background-color: #2a2c37;
+    margin-left: 15%;
+    border-radius: 2.3rem;
+    overflow: hidden;
+   
+}
+
+.about-content{
+    display: flex;
+}
+
+
+
+.state-image{
+    height: 480px;
+    margin-left: 65.5%;
+    margin-top: 70px;
+}
+
+.numbers{
+    display: flex;
+    margin-left: 30%;
+}
+
+.number-2{
+    margin-left: 90%;
+}
+
+.number-title{
+    font-size: 45px;
+    color: white;
+    margin-top: 60px;
+    line-height: 25px;
+    font-family: 'Abel', sans-serif;
+}
+.number-para{
+    font-size: 20px;
+    width: 200%;
+    line-height: 10px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+
+.about-header{
+    margin-left: 30%;
+    margin-top: 130px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}

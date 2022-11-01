@@ -1,0 +1,91 @@
+.card-container{
+    height: 100vh;
+    background-color: #eff2f6;
+}
+.card-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+   
+}
+.card-header{
+    padding-top: 5%;
+    text-align: center;
+}
+
+.green-card{
+    width: 352px;
+    height: 563px;
+    background-color:#199f84 ;
+    border-radius: 16px;
+}
+
+.red-card{
+    width: 352px;
+    height: 563px;
+    background-color:#eb4b4d ;
+    margin-left: 10%;
+    border-radius: 16px;
+}
+.black-card{
+    width: 352px;
+    height: 563px;
+    background-color:#2a2c37 ;
+    margin-left: 10%;
+    border-radius: 16px;
+}
+
+.green{
+    width: 288px;
+    height: 203px;
+    margin-top: -4%;
+}
+
+.green-title{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    margin-top: 15%;
+    font-family: 'Abel', sans-serif;
+}
+
+.green-month{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    margin-top: -10%;
+    font-family: 'Abel', sans-serif;
+}
+
+.green-ul li{
+    line-height: 30px;
+    list-style: none;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+
+.green-button{
+    width: 288px;
+    height: 54px;
+    margin-left: 30px;
+    border-radius: 12px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-family: 'Abel', sans-serif;
+}
+
+.choose{
+    font-size: 45px;
+    font-family: 'Abel', sans-serif;
+    text-transform: capitalize;
+}
+
+.choose-1{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1px;
+    font-family: 'Abel', sans-serif;
+}

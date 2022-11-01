@@ -1,0 +1,35 @@
+.payment-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pay-image{
+    height: 565px;
+    width:648px ;
+    
+}
+
+.payment-content-image{
+    margin-left: 9%;
+}
+
+.pay-para{
+    line-height: 10px;
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+}
+
+.learn-more{
+    width: 145px;
+    height: 55px;
+    border-radius: 12px;
+    background-color:#2a2c37 ;
+    color: white;
+    border: none;
+    font-family: 'Abel', sans-serif;
+}
+.finely-header{
+    font-family: 'Abel', sans-serif;
+    font-size: 35px;
+}
