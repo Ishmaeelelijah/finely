@@ -33,3 +33,92 @@
     font-family: 'Abel', sans-serif;
     font-size: 35px;
 }
+
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+.payment-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pay-image{
+    height: 465px;
+    width: 548px ;
+    
+}
+
+.payment-content-image{
+    margin-left: 9%;
+}
+
+.pay-para{
+    line-height: 10px;
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+}
+
+.learn-more{
+    width: 145px;
+    height: 55px;
+    border-radius: 12px;
+    background-color:#2a2c37 ;
+    color: white;
+    border: none;
+    font-family: 'Abel', sans-serif;
+}
+.finely-header{
+    font-family: 'Abel', sans-serif;
+    font-size: 35px;
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .payment-content{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .pay-image{
+        height: 365px;
+        width:348px ;
+        
+    }
+    
+    .payment-content-image{
+        margin-left: 3%;
+    }
+    
+    .pay-para{
+        line-height: 18px;
+        font-size: 16px;
+        font-family: 'Abel', sans-serif;
+        margin-left: 10px;
+    }
+    
+    .learn-more{
+        width: 120px;
+        height: 55px;
+        border-radius: 12px;
+        margin-left: 10px;
+        background-color:#2a2c37 ;
+        color: white;
+        border: none;
+        font-family: 'Abel', sans-serif;
+    }
+    .finely-header{
+        font-family: 'Abel', sans-serif;
+        font-size: 25px;
+        margin-left: 10px;
+    }
+  }

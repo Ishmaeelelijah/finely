@@ -2,10 +2,12 @@ import React from 'react'
 import  './hero.css'
 import HeroImage from '../../assets/images/herocard.webp'
 
+
 const Hero = () => {
   return (
     <div className='hero-container'>
         <div className='hero-section'>
+         
             <div className='hero-text'>
                 <h1 className='hero-header'>Your finances in your pocket</h1>
                 <h1 className='hero-title'>Get your personal</h1>

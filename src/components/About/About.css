@@ -52,3 +52,127 @@
     color: white;
     font-family: 'Abel', sans-serif;
 }
+
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+
+.about-container{
+    height: 500px;
+    width: 1000px;
+    background-color: #2a2c37;
+    margin-left: 12%;
+    border-radius: 2.3rem;
+    overflow: hidden;
+   
+}
+
+.about-content{
+    display: flex;
+}
+
+
+
+.state-image{
+    height: 380px;
+    margin-left: 55%;
+    margin-top: 70px;
+}
+
+.numbers{
+    display: flex;
+    margin-left: 30%;
+}
+
+.number-2{
+    margin-left: 90%;
+}
+
+.number-title{
+    font-size: 35px;
+    color: white;
+    margin-top: 60px;
+    line-height: 25px;
+    font-family: 'Abel', sans-serif;
+}
+.number-para{
+    font-size: 15px;
+    width: 200%;
+    line-height: 10px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+
+.about-header{
+    margin-left: 30%;
+    margin-top: 100px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .about-container{
+        height: 350px;
+        width: 350px;
+        background-color: #2a2c37;
+        margin-left: 5%;
+        border-radius: 2.3rem;
+        overflow: hidden;
+       
+    }
+    
+    .about-content{
+        display: flex;
+    }
+    
+    
+    
+    .state-image{
+        height: 480px;
+        margin-left: 65.5%;
+        margin-top: 70px;
+        display: none;
+    }
+    
+    .numbers{
+        display: flex;
+        margin-left: 10%;
+    }
+    
+    .number-2{
+        margin-left: 40%;
+    }
+    
+    .number-title{
+        font-size: 25px;
+        color: white;
+        margin-top: 30px;
+        line-height: 25px;
+        font-family: 'Abel', sans-serif;
+    }
+    .number-para{
+        font-size: 15px;
+        width: 200%;
+        line-height: 10px;
+        color: white;
+        font-family: 'Abel', sans-serif;
+    }
+    
+    .about-header{
+        text-align: center;
+        margin-top: 30px;
+        color: white;
+        font-family: 'Abel', sans-serif;
+    }
+
+   }

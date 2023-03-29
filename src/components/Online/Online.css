@@ -50,3 +50,124 @@
     color: white;
     font-family: 'Abel', sans-serif;
 }
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .online-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .online-image{
+        height: 548px;
+        width: 543px;
+    }
+    
+    .online-text{
+        margin-left: 8%;
+    }
+    
+    .online-header{
+        margin-top: -30px;
+        font-size: 38px;
+        font-family: 'Abel', sans-serif;
+    }
+    
+    .online-ul li {
+        line-height: 30px;
+        font-size: 16px;
+        font-family: 'Abel', sans-serif;
+    }
+    
+    .online-button{
+        display: flex;
+        margin-left: 5%;
+    }
+    
+    .applestore{
+        margin-left: 20px;
+        height: 57px;
+        width: 200px;
+        border: none;
+        border-radius: 12px;
+        background-color:#2a2c37 ;
+        color: white;
+        font-family: 'Abel', sans-serif;
+    }
+    
+    .playstore{
+        height: 57px;
+        width: 200px;
+        border: none;
+        border-radius: 12px;
+        background-color:#2a2c37 ;
+        color: white;
+        font-family: 'Abel', sans-serif;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .online-content{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .online-image{
+        height: 348px;
+        width: 343px;
+        margin-left: 10px;
+    }
+    
+    .online-text{
+        margin-left: 8%;
+    }
+    
+    .online-header{
+        margin-top: 30px;
+        font-size: 38px;
+        font-family: 'Abel', sans-serif;
+    }
+    
+    .online-ul li {
+        line-height: 30px;
+        font-size: 16px;
+        font-family: 'Abel', sans-serif;
+    }
+    
+    .online-button{
+        display: flex;
+        margin-left: 8%;
+    }
+    
+    .applestore{
+        margin-left: 10px;
+        height: 57px;
+        width: 150px;
+        border: none;
+        border-radius: 12px;
+        background-color:#2a2c37 ;
+        color: white;
+        font-family: 'Abel', sans-serif;
+    }
+    
+    .playstore{
+        margin-left: -20px;
+        height: 57px;
+        width: 150px;
+        border: none;
+        border-radius: 12px;
+        background-color:#2a2c37 ;
+        color: white;
+        font-family: 'Abel', sans-serif;
+    }
+  }

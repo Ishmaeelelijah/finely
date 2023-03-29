@@ -1,0 +1,133 @@
+.footer-contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.footer-list {
+    display: inline;
+    list-style: none;
+    font-family: 'Abel', sans-serif;
+    
+}
+.footer-list-2 {
+    display: inline;
+    list-style: none;
+    margin-left: 50px;
+    font-family: 'Abel', sans-serif;
+    
+}
+
+.footer-list-3 {
+    display: inline;
+    list-style: none;
+    margin-left: 50px;
+    font-family: 'Abel', sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer-right{
+    margin-left: 35%;
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .footer-contents{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2%;
+    }
+    
+    .footer-list {
+        display: inline;
+        list-style: none;
+        font-family: 'Abel', sans-serif;
+        
+    }
+    .footer-list-2 {
+        display: inline;
+        list-style: none;
+        margin-left: 50px;
+        font-family: 'Abel', sans-serif;
+        
+    }
+    
+    .footer-list-3 {
+        display: inline;
+        list-style: none;
+        margin-left: 50px;
+        font-family: 'Abel', sans-serif;
+        
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+    
+    }
+    
+    .footer-right{
+        margin-left: 35%;
+    }
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .footer-contents{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2%;
+    }
+    
+    .footer-list {
+        display: list-item;
+        list-style: none;
+        margin-left: 2px;
+        font-family: 'Abel', sans-serif;
+        
+    }
+    .footer-list-2 {
+        display: list-item;
+        list-style: none;
+        margin-left: 2px;
+        font-family: 'Abel', sans-serif;
+        
+    }
+    
+    .footer-list-3 {
+        display: list-item;
+        list-style: none;
+        margin-left: 2px;
+        font-family: 'Abel', sans-serif;
+        
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+    
+    }
+    
+    .footer-right{
+        margin-left: -5%;
+    }
+
+    .logo{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}

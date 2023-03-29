@@ -7,9 +7,13 @@ import Online from './components/Online/Online';
 import Payment from './components/Payment/Payment';
 import Card from './components/Cards/Card';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import NavBar from './components/Navbar/Navbar';
+
 function App() {
   return (
     <div className="App">
+       <NavBar/>
         <div className='hero'>
           <Hero />
         </div>
@@ -28,8 +32,11 @@ function App() {
         <div className='about'>
           <Card />
         </div>
-        <div className='about'>
+        <div className='contact'>
           <Contact />
+        </div>
+        <div className='footer'>
+          <Footer />
         </div>
     </div>
 

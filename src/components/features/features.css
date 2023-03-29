@@ -59,3 +59,79 @@
     line-height: 8px;
     font-family: 'Abel', sans-serif;
 }
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+    .feature-title{
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Abel', sans-serif;
+    }
+    
+    .feature-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 8px;
+    }
+    .feature-content-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        margin-left: 8px;
+    }
+    .item-image{
+        height:50px;
+    }
+    
+    .feature-item-3{
+        margin-left: 11%;
+    }
+    
+    .feature-item-2{
+        margin-left: 9%;
+    }
+    
+    .feature-content{
+        margin-top: 2%;
+    }
+    
+    .free-title{
+        font-size: 15px;
+        font-family: 'Abel', sans-serif;
+    }
+    
+    .fast-title{
+        font-size: 15px;
+        line-height: 5px;
+        font-family: 'Abel', sans-serif;
+    }
+    .support-title{
+        font-size: 15px;
+        line-height: 5px;
+        font-family: 'Abel', sans-serif;
+    }
+    
+    .free-para{
+        font-size: 13px;
+        line-height: 12px;
+        font-family: 'Abel', sans-serif;
+        
+    }
+    .free-para-1{
+        font-size: 13px;
+        margin-top: 20px;
+        line-height: 12px;
+        font-family: 'Abel', sans-serif;
+    }
+
+}
+
